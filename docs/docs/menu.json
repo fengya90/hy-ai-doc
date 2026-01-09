@@ -1,0 +1,25 @@
+[
+  {
+    "title":"新手指南",
+    "link_list":[
+      {
+        "title":"快速开始",
+        "path":"/docs/quickstart/quickstart"
+      }
+    ]
+  },
+  {
+    "title":"使用手册",
+    "link_list":[
+      {
+        "title":"概念",
+        "path":"/docs/guide/concept"
+      },
+      {
+        "title":"如何编译",
+        "path":"/docs/guide/compile"
+      }
+
+    ]
+  }
+]

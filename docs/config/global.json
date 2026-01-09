@@ -1,0 +1,21 @@
+{
+  "title": "FDoc",
+  "menu_list":[
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "Blog",
+      "path": "/blog"
+    },
+    {
+      "title": "Docs",
+      "path": "/docs"
+    },
+    {
+      "title": "About",
+      "path": "/about/about"
+    }
+  ]
+}
