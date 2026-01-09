@@ -1,11 +1,11 @@
 {
-    "name": "fdoc",
-    "short_name": "fdoc",
+    "name": "AI项目文档",
+    "short_name": "AI文档",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "fdoc",
+    "description": "AI项目文档网站",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

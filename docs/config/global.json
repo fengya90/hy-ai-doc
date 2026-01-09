@@ -1,20 +1,20 @@
 {
-  "title": "FDoc",
+  "title": "AI项目文档",
   "menu_list":[
     {
-      "title": "Home",
+      "title": "首页",
       "path": "/"
     },
     {
-      "title": "Blog",
-      "path": "/blog"
+      "title": "API文档",
+      "path": "/api"
     },
     {
-      "title": "Docs",
-      "path": "/docs"
+      "title": "相关文档",
+      "path": "/related"
     },
     {
-      "title": "About",
+      "title": "关于",
       "path": "/about/about"
     }
   ]

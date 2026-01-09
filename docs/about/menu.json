@@ -1,9 +1,9 @@
 [
   {
-    "title":"About",
+    "title":"关于",
     "link_list":[
       {
-        "title":"About Me",
+        "title":"关于我们",
         "path":"/about/about"
       }
     ]
