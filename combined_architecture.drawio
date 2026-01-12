@@ -307,24 +307,39 @@
         </mxCell>
         
         <!-- 应用层到基础能力层 -->
-        <mxCell id="conn_assistant_base" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=1;" edge="1" parent="1" source="assistant_server" target="bridge">
+        <mxCell id="conn_assistant_base" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=1;" edge="1" parent="1" source="assistant_server" target="external_bridge">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
-        <mxCell id="conn_glasses_base" style="endArrow=classic;html=1;strokeColor=#9C27B0;strokeWidth=1;" edge="1" parent="1" source="glass_server" target="bridge">
+        <mxCell id="conn_glasses_base" style="endArrow=classic;html=1;strokeColor=#9C27B0;strokeWidth=1;" edge="1" parent="1" source="glass_server" target="external_bridge">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
-        <mxCell id="conn_computer_base" style="endArrow=classic;html=1;strokeColor=#00796B;strokeWidth=1;" edge="1" parent="1" source="computer_use" target="bridge">
+        <mxCell id="conn_computer_base" style="endArrow=classic;html=1;strokeColor=#00796B;strokeWidth=1;" edge="1" parent="1" source="computer_use" target="external_bridge">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
         <!-- 基础能力层内部连接 -->
+        <mxCell id="conn_external_bridge" style="endArrow=classic;html=1;strokeColor=#FFC107;strokeWidth=1;" edge="1" parent="1" source="external_bridge" target="bridge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
         <mxCell id="conn_bridge_native" style="endArrow=classic;html=1;strokeColor=#FFA000;strokeWidth=1;" edge="1" parent="1" source="bridge" target="native_ability">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
         <mxCell id="conn_native_gateway" style="endArrow=classic;html=1;strokeColor=#66BB6A;strokeWidth=1;" edge="1" parent="1" source="native_ability" target="gateway">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 新增连接 -->
+        <!-- 核心模块到多模型Agent -->
+        <mxCell id="conn_core_agents" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=1;" edge="1" parent="1" source="assistant_core" target="assistant_agents">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- 设备服务到订阅服务 -->
+        <mxCell id="conn_device_subscription" style="endArrow=classic;html=1;strokeColor=#9C27B0;strokeWidth=1;" edge="1" parent="1" source="device_svc" target="subscription">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
